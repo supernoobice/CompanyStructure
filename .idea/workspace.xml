@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73162ca5-67a5-4e45-a8db-52d6574eb060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/SoftwareEngineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/TechManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/TechnicalLead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/Accountant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bootcamp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bootcamp/BusinessEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/BusinessEmployee.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

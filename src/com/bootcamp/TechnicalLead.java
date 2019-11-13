@@ -44,4 +44,6 @@ public class TechnicalLead extends TechnicalEmployee implements TechManager {
     public boolean requestBonus() {
         return false;
     }
+
+
 }

@@ -1,13 +1,15 @@
 package com.bootcamp;
 
-public abstract class BusinessEmployee extends Employee {
+public class BusinessEmployee extends Employee {
     public double bonusBudget;
 
     public BusinessEmployee(String name) {
         super(name, 50000);
     }
 
-    public abstract double getBonusBudget();
+    public double getBonusBudget() {
+        return this.bonusBudget;
+    }
 
     @Override
     public String employeeStatus() {
