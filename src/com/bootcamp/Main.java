@@ -9,5 +9,8 @@ public class Main {
 
         TechnicalEmployee lbc = new TechnicalEmployee("LBC");
         System.out.println(lbc.employeeStatus());
+
+        TechnicalLead tech = new TechnicalLead("Jojo");
+        System.out.println(tech.getBaseSalary());
     }
 }
