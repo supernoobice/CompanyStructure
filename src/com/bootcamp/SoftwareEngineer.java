@@ -19,6 +19,10 @@ public class SoftwareEngineer extends TechnicalEmployee {
         return this.successfulCheckIns;
     }
 
+    public TechnicalLead getManager() {
+        return this.manager;
+    }
+
     public boolean checkInCode() {
         if(manager.approveCheckIn(this)) {
             this.successfulCheckIns++;

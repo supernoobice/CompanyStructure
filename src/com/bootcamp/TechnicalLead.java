@@ -40,10 +40,17 @@ public class TechnicalLead extends TechnicalEmployee implements TechManager {
         return false;
     }
 
-    @Override
-    public boolean requestBonus() {
+    // TODO Need BusinessLead
+    public boolean requestBonus(Employee e, double bonus) {
         return false;
     }
 
+    public String getTeamStatus() {
+        String managing = "";
+        for (SoftwareEngineer member: this.directReports) {
+            managing += " - " + member.employeeStatus() + '\n';
+        }
+        return this.employeeStatus() + " and is managing: \n" + managing;
+    }
 
 }
