@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73162ca5-67a5-4e45-a8db-52d6574eb060" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/BusinessLead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Accountant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Accountant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/TechManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/TechManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/TechnicalLead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/TechnicalLead.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bootcamp/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/Accountant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bootcamp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/Main.java" afterDir="false" />
     </list>

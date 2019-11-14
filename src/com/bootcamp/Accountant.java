@@ -6,6 +6,7 @@ public class Accountant extends BusinessEmployee {
     public Accountant(String name) {
         super(name);
         this.teamSupporting = null;
+        // Whats the salary for accountant?
     }
 
     public TechnicalLead getTeamSupported() {

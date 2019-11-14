@@ -19,5 +19,6 @@ public class Main {
         Accountant accountant = new Accountant("Sec");
         accountant.supportTeam(e3);
         System.out.println(accountant.employeeStatus());
+        System.out.println("Accountant salary: " + accountant.getBaseSalary());
     }
 }
