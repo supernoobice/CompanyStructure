@@ -5,7 +5,6 @@ public class Accountant extends BusinessEmployee {
 
     public Accountant(String name) {
         super(name);
-        this.bonusBudget = 0;
         this.teamSupporting = null;
     }
 
@@ -20,7 +19,7 @@ public class Accountant extends BusinessEmployee {
             total_salary = total_salary + member.getBaseSalary();
         }
 
-        this.bonusBudget = total_salary * 0.10;
+        this.bonusBudget = total_salary + (total_salary * 0.10);
     }
 
     public boolean approveBonus(double bonus) {

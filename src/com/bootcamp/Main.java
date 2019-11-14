@@ -14,5 +14,10 @@ public class Main {
         System.out.println(e3.employeeStatus());
         System.out.println(e3.getTeamStatus());
         System.out.println(e1.getManager().getName());
+
+        // Accountant Test
+        Accountant accountant = new Accountant("Sec");
+        accountant.supportTeam(e3);
+        System.out.println(accountant.employeeStatus());
     }
 }
