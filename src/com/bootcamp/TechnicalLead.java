@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class TechnicalLead extends TechnicalEmployee implements TechManager {
     public int headCount;
     public ArrayList<SoftwareEngineer> directReports;
+    public BusinessLead lead;
+    public Accountant support;
 
     public TechnicalLead(String name) {
         super(name);
@@ -40,8 +42,12 @@ public class TechnicalLead extends TechnicalEmployee implements TechManager {
         return false;
     }
 
-    // TODO Need BusinessLead
     public boolean requestBonus(Employee e, double bonus) {
+        this.lead = (BusinessLead) this.support.getManager();
+        if(this.lead.approveBonus(e, bonus) ) {
+            e.bonus += bonus;
+            return true;
+        }
         return false;
     }
 

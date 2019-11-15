@@ -14,6 +14,6 @@ public class TechnicalEmployee extends Employee {
 
     @Override
     public String employeeStatus() {
-        return this.toString() + " has " + this.getCheckIns() + " successful check ins." ;
+        return this.toString() + " has " + this.getCheckIns() + " successful check ins" ;
     }
 }

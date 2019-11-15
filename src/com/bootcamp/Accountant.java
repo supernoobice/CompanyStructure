@@ -20,6 +20,9 @@ public class Accountant extends BusinessEmployee {
             total_salary = total_salary + member.getBaseSalary();
         }
 
+        // set this account as the techlead's support
+        lead.support = this;
+
         this.bonusBudget = total_salary + (total_salary * 0.10);
     }
 

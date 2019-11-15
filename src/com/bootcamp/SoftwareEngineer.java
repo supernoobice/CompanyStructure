@@ -2,13 +2,12 @@ package com.bootcamp;
 
 public class SoftwareEngineer extends TechnicalEmployee {
     public boolean codeAccess;
-    public int successfulCheckIns;
     public TechnicalLead manager;
 
     public SoftwareEngineer(String name) {
         super(name);
         this.codeAccess = false;
-        this.successfulCheckIns = 0;
+        this.checkIns = 0;
     }
 
     public void setCodeAccess(boolean access) {
@@ -16,7 +15,7 @@ public class SoftwareEngineer extends TechnicalEmployee {
     }
 
     public int getSuccessfulCheckIns() {
-        return this.successfulCheckIns;
+        return this.checkIns;
     }
 
     public TechnicalLead getManager() {
@@ -25,7 +24,7 @@ public class SoftwareEngineer extends TechnicalEmployee {
 
     public boolean checkInCode() {
         if(manager.approveCheckIn(this)) {
-            this.successfulCheckIns++;
+            this.checkIns++;
             return true;
         }
         return false;

@@ -10,6 +10,7 @@ public class BusinessLead extends BusinessEmployee {
         super(name);
         this.baseSalary = this.getBaseSalary() * 2.0;
         this.headCount = 10;
+        this.directReports = new ArrayList<>();
     }
 
     public boolean hasHeadCount() {
@@ -23,6 +24,8 @@ public class BusinessLead extends BusinessEmployee {
 
             // update accountant's support team
             e.supportTeam(supportTeam);
+            e.manager = this;
+
             return true;
         }
         else {
@@ -55,5 +58,13 @@ public class BusinessLead extends BusinessEmployee {
             }
         }
         return false;
+    }
+
+    public String getTeamStatus() {
+        String managing = "";
+        for (Accountant member: this.directReports) {
+            managing += " - " + member.employeeStatus() + '\n';
+        }
+        return this.employeeStatus() + " and is managing: \n" + managing;
     }
 }

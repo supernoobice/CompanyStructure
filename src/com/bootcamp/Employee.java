@@ -5,6 +5,7 @@ public abstract class Employee {
     public double baseSalary;
     public static int employeeCounter;
     public Employee manager;
+    public double bonus;
     public int ID;
 
     public Employee(String name, double baseSalary) {
