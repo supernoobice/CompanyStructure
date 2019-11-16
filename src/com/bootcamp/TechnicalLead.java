@@ -13,6 +13,7 @@ public class TechnicalLead extends TechnicalEmployee implements TechManager {
         this.baseSalary = this.getBaseSalary() * 1.3;
         this.headCount = 4;
         this.directReports = new ArrayList<>();
+        this.lead = null;
     }
 
     public boolean approveCheckIn(SoftwareEngineer e) {

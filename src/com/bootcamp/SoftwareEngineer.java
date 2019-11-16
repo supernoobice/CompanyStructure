@@ -8,6 +8,7 @@ public class SoftwareEngineer extends TechnicalEmployee {
         super(name);
         this.codeAccess = false;
         this.checkIns = 0;
+        this.manager = null;
     }
 
     public void setCodeAccess(boolean access) {
