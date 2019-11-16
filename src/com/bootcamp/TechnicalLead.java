@@ -45,7 +45,7 @@ public class TechnicalLead extends TechnicalEmployee implements TechManager {
     public boolean requestBonus(Employee e, double bonus) {
         this.lead = (BusinessLead) this.support.getManager();
         if(this.lead.approveBonus(e, bonus) ) {
-            e.bonus += bonus;
+            e.bonusBudget += bonus;
             return true;
         }
         return false;
