@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73162ca5-67a5-4e45-a8db-52d6574eb060" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/AccountantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bootcamp/SoftwareEngineerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/BusinessLead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/BusinessLead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/SoftwareEngineer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/SoftwareEngineer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/TechnicalLead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompanyStructure/com/bootcamp/TechnicalLead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bootcamp/SoftwareEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/SoftwareEngineer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bootcamp/TechnicalLead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/TechnicalLead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bootcamp/BusinessLead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bootcamp/BusinessLead.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -28,7 +32,23 @@
   <component name="ProjectId" id="1TYl2z3qmwEc1zdTnTp678DrBms" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bootcamp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,20 +62,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcamp.Main" />
+  <component name="RunManager" selected="JUnit.AccountantTest">
+    <configuration name="AccountantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompanyStructure" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.AccountantTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareEngineerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanyStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.SoftwareEngineerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareEngineerTest.setCodeAccessCheckInTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanyStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.SoftwareEngineerTest" />
+      <option name="METHOD_NAME" value="setCodeAccessCheckInTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareEngineerTest.softwareEngineerBonus1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanyStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.SoftwareEngineerTest" />
+      <option name="METHOD_NAME" value="softwareEngineerBonus1000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftwareEngineerTest.softwareEngineerBonus20M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanyStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.SoftwareEngineerTest" />
+      <option name="METHOD_NAME" value="softwareEngineerBonus20M" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AccountantTest" />
+        <item itemvalue="JUnit.SoftwareEngineerTest" />
+        <item itemvalue="JUnit.SoftwareEngineerTest.softwareEngineerBonus1000" />
+        <item itemvalue="JUnit.SoftwareEngineerTest.softwareEngineerBonus20M" />
+        <item itemvalue="JUnit.SoftwareEngineerTest.setCodeAccessCheckInTrue" />
       </list>
     </recent_temporary>
   </component>

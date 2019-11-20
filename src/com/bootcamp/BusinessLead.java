@@ -35,8 +35,7 @@ public class BusinessLead extends BusinessEmployee {
 
     public boolean requestBonus(Employee e, double bonus) {
         if(bonus < this.getBonusBudget()) {
-            Accountant employee = (Accountant) e;
-            employee.bonusBudget += bonus; // employee gets the bonus
+            e.bonusBudget += bonus; // employee gets the bonus
             this.bonusBudget -= bonus; // businesslead deducts from his bonus
             return true;
         }
